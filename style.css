@@ -1,3 +1,59 @@
 h1, h2 {
   font-family: Lato;
 }
+
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+ {margin-top:0cm;
+ margin-right:0cm;
+ margin-bottom:10.0pt;
+ margin-left:0cm;
+ line-height:115%;
+ font-size:11.0pt;
+ font-family:"Calibri",sans-serif;}
+h1
+ {mso-style-link:"Título 1 Car";
+ margin-top:12.0pt;
+ margin-right:0cm;
+ margin-bottom:0cm;
+ margin-left:0cm;
+ line-height:115%;
+ page-break-after:avoid;
+ font-size:16.0pt;
+ font-family:"Cambria",serif;
+ color:#365F91;
+ font-weight:normal;}
+a:link, span.MsoHyperlink
+ {color:blue;
+ text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+ {margin-top:0cm;
+ margin-right:0cm;
+ margin-bottom:10.0pt;
+ margin-left:36.0pt;
+ line-height:115%;
+ font-size:11.0pt;
+ font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+ {margin-top:0cm;
+ margin-right:0cm;
+ margin-bottom:0cm;
+ margin-left:36.0pt;
+ line-height:115%;
+ font-size:11.0pt;
+ font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+ {margin-top:0cm;
+ margin-right:0cm;
+ margin-bottom:0cm;
+ margin-left:36.0pt;
+ line-height:115%;
+ font-size:11.0pt;
+ font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+ {margin-top:0cm;
+ margin-right:0cm;
+ margin-bottom:10.0pt;
+ margin-left:36.0pt;
+ line-height:115%;
+ font-size:11.0pt;
+ font-family:"Calibri",sans-serif;}
