@@ -1,37 +1,336 @@
 <head>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3plus/1.9.2/d3plus.full.min.js"></script>
+
+
+  <style>
+    <!--
+     /* Font Definitions */
+     @font-face
+      {font-family:Wingdings;
+      panose-1:5 0 0 0 0 0 0 0 0 0;}
+    @font-face
+      {font-family:"Cambria Math";
+      panose-1:2 4 5 3 5 4 6 3 2 4;}
+    @font-face
+      {font-family:Calibri;
+      panose-1:2 15 5 2 2 2 4 3 2 4;}
+    @font-face
+      {font-family:Cambria;
+      panose-1:2 4 5 3 5 4 6 3 2 4;}
+    @font-face
+      {font-family:Tahoma;
+      panose-1:2 11 6 4 3 5 4 4 2 4;}
+    @font-face
+      {font-family:"Myriad Pro";
+      panose-1:0 0 0 0 0 0 0 0 0 0;}
+     /* Style Definitions */
+     p.MsoNormal, li.MsoNormal, div.MsoNormal
+      {margin-top:0cm;
+      margin-right:0cm;
+      margin-bottom:10.0pt;
+      margin-left:0cm;
+      line-height:115%;
+      font-size:11.0pt;
+      font-family:"Calibri",sans-serif;}
+    h1
+      {mso-style-link:"Título 1 Car";
+      margin-top:12.0pt;
+      margin-right:0cm;
+      margin-bottom:0cm;
+      margin-left:0cm;
+      line-height:115%;
+      page-break-after:avoid;
+      font-size:16.0pt;
+      font-family:"Cambria",serif;
+      color:#365F91;
+      font-weight:normal;}
+    a:link, span.MsoHyperlink
+      {color:blue;
+      text-decoration:underline;}
+    p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+      {margin-top:0cm;
+      margin-right:0cm;
+      margin-bottom:10.0pt;
+      margin-left:36.0pt;
+      line-height:115%;
+      font-size:11.0pt;
+      font-family:"Calibri",sans-serif;}
+    p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+      {margin-top:0cm;
+      margin-right:0cm;
+      margin-bottom:0cm;
+      margin-left:36.0pt;
+      line-height:115%;
+      font-size:11.0pt;
+      font-family:"Calibri",sans-serif;}
+    p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+      {margin-top:0cm;
+      margin-right:0cm;
+      margin-bottom:0cm;
+      margin-left:36.0pt;
+      line-height:115%;
+      font-size:11.0pt;
+      font-family:"Calibri",sans-serif;}
+    p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+      {margin-top:0cm;
+      margin-right:0cm;
+      margin-bottom:10.0pt;
+      margin-left:36.0pt;
+      line-height:115%;
+      font-size:11.0pt;
+      font-family:"Calibri",sans-serif;}
+    span.Ttulo1Car
+      {mso-style-name:"Título 1 Car";
+      mso-style-link:"Título 1";
+      font-family:"Cambria",serif;
+      color:#365F91;}
+    .MsoChpDefault
+      {font-family:"Calibri",sans-serif;}
+    .MsoPapDefault
+      {margin-bottom:10.0pt;
+      line-height:115%;}
+     /* Page Definitions */
+     @page WordSection1
+      {size:595.3pt 841.9pt;
+      margin:92.15pt 3.0cm 70.85pt 3.0cm;}
+    div.WordSection1
+      {page:WordSection1;}
+     /* List Definitions */
+     ol
+      {margin-bottom:0cm;}
+    ul
+      {margin-bottom:0cm;}
+    -->
+    </style>
   </head>
-<div id="app">
-<h1>
-Visualización - AG1
-</h1>
+<div id="app" style='word-wrap:break-word'>
+
+
+  
 <b>Nombre:</b> &nbsp;&nbsp;Mary Luz Suarez Zapata<br>
-<b>Url:</b>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://js-bspq2r.stackblitz.io">https://js-bspq2r.stackblitz.io</a><br>
-<b>Github</b>:&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/mlsuarezz/VisualizacionDeDatos">https://github.com/mlsuarezz/VisualizacionDeDatos</a>
+<b>Url:</b>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://js-5q6tzm.stackblitz.io">https://js-5q6tzm.stackblitz.io</a><br>
+<b>Github</b>:&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/mlsuarezz/js-5q6tzm">https://github.com/mlsuarezz/js-5q6tzm</a>
 <br><br>
-<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6Z01xXKUqWNTgNc5sgdEWjnSeT1mlAi_nIizh5XjTnVQM8bTl3fFQ5CIsPNITNqKrY20JN3m2YLXv/pubchart?oid=79359915&amp;format=interactive"></iframe>
 
 
-<iframe title="Relación CO2 per Capital/ Emision Total" aria-label="Scatter Plot" id="datawrapper-chart-FGjBA" src="https://datawrapper.dwcdn.net/FGjBA/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-</script>
 
 
-<h1>
-  Visualización - AG3
-</h1>
+  <h1>Trabajo Práctico Visualización de Datos</h1>
+
+  <br clear=ALL>
+  <br clear=ALL>
+  <p class=MsoNormal style='margin-left:35.4pt'>Se realiza la extracción de una base
+    de datos corporativa, obtenida desde un sistema que consolida la información
+    correspondiente a planta de personal y los ausentismo y novedades de los
+    funcionarios. Particularmente mi labor en la empresa en que trabajo (Empresas
+    públicas de Medellín); se basa en el soporte y evolución de dicha solución. En
+    la que se consolida todos los datos relacionados con el área de gestion humana.
+     Esta base de datos contiene la información de ausentismos de los empleados
+    durante los últimos años, desde un reporte personalizado con un grupo de
+    atributos que consideré que pueden estar relacionados con temas de salud de los
+    empleados. </p>
 
 
-<h2>Google Colab:</h2>
+    <p class=MsoNormal style='margin-left:35.4pt'>Las fuentes especificas son los
+dos siguientes aplicativos transaccionales</p>
 
-<a href="https://colab.research.google.com/drive/1tisqomjey5oPk3l5EM31HEYGdvQs1pOg?usp=sharing">https://colab.research.google.com/drive/1tisqomjey5oPk3l5EM31HEYGdvQs1pOg?usp=sharing</a><br>
+<p class=MsoListParagraphCxSpFirst style='margin-left:71.4pt;text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>HCM Human Capital Management, es un aplicativo comercial en la nube,
+contratado por la empresa al proveedor Oracle, que contiene la información
+general de planta de personal como la caracterización demográfica de los
+empleados. </p>
 
+<p class=MsoListParagraphCxSpLast style='margin-left:71.4pt;text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Nomina Reporte de tiempos, esta es una aplicación construcción a
+la medida, que contiene el registro de Ausentismos y novedades en la empresa</p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><b>&nbsp;</b></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'>&nbsp;</p>
+
+<h1 style='margin-left:36.0pt;text-indent:-18.0pt'><span style='color:windowtext'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='color:windowtext'>Problema para resolver </span></h1>
+
+<p class=MsoNormal style='margin-left:35.4pt;text-indent:.6pt'>Según el CESLA (Centro
+de estudios sociales y laborales de Colombia), uno de los mayores causantes de
+ausentismo laboral, son las incapacidades por todo tipo de causa, por lo cual
+se requiere realizar un análisis que permita estimar dichos ausentismos en los
+próximos 5 años de forma discriminada. </p>
+
+<p class=MsoNormal style='margin-left:35.4pt;text-indent:.6pt'>Esta información
+va a permitía a la organización establecer opciones de control y mitigación de
+los agentes que generan las incapacidades médicas.  Que se puede hacer para
+controlar o mitigar esta cantidad de incapacidades, también permitirá evaluar
+su impacto económico en términos de sostenibilidad empresarial. </p>
+
+<p class=MsoNormal style='margin-left:35.4pt;text-indent:.6pt'><b><i>En
+definitiva, el objetivo será realizar un análisis sobre las incapacidades
+reportadas por los funcionarios</i></b></p>
+
+<p class=MsoNormal style='margin-left:35.4pt;text-indent:.6pt'><b><i>&nbsp;</i></b></p>
+
+<h1 style='margin-left:36.0pt;text-indent:-18.0pt'><span style='color:windowtext'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='color:windowtext'>Público objetivo</span></h1>
+
+<p class=MsoNormal style='margin-left:35.4pt'>En este caso el personal
+especialmente interesado en conocer dicha información corresponde a la
+vicepresidencia de gestion humana, específicamente al staff de empleados que
+realizan los análisis de riesgos laborales en la organización, para realizar
+vigilancia de salud sobre los funcionarios que estén presentando alguna afección
+particular y este afectando su desempeño laboral. En ocasiones se requiere
+realizar traslados entre dependencias de los funcionarios o de cargos para
+poder ofrecer mayor calidad de vida a estos empleados. </p>
+
+<h1 style='margin-left:36.0pt;text-indent:-18.0pt'><span style='color:windowtext'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='color:windowtext'>Descripción detallada de los pasos</span></h1>
+
+<h1 style='margin-left:72.0pt;text-indent:-36.0pt'><span style='color:windowtext'>3.1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='color:windowtext'>Colab</span></h1>
+
+<p class=MsoNormal style='margin-left:35.4pt'>Inicialmente se realizamos la
+consolidación de los datos demográficos y específicos sobre incapaciades de los
+empleados. </p>
+
+<p class=MsoNormal style='margin-left:35.4pt'>A continuación el link para
+acceder al archivo Colab completo con el desarrollo de la actividad</p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><a
+href="https://colab.research.google.com/drive/1XsPZCqr9I-UB6mkarspxi720JdC_vdng?usp=sharing">https://colab.research.google.com/drive/1XsPZCqr9I-UB6mkarspxi720JdC_vdng?usp=sharing</a>
+</p>
+
+
+
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:71.25pt;text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Inicialmente cargo los datos de planta y los datos de incapacides
+medicas, de esta última carga obtengo algunos cálculos específicos que
+permitirán hacer el análisis. </p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:107.25pt;text-indent:-18.0pt;line-height:14.25pt;
+background:#FFFFFE'><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+style='color:black'>TotalDiasAusentismo</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:107.25pt;text-indent:-18.0pt;line-height:14.25pt;
+background:#FFFFFE'><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+style='color:black'>TotalPagoPorIncapacidades</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:107.25pt;text-indent:-18.0pt;line-height:14.25pt;
+background:#FFFFFE'><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+style='color:black'>TotalIncapacidades</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:107.25pt;text-indent:-18.0pt;line-height:14.25pt;
+background:#FFFFFE'><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+style='color:black'>TotalIncapacidadesMes</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:107.25pt;text-indent:-18.0pt;line-height:14.25pt;
+background:#FFFFFE'><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+style='color:black'>PromIncapacidadesMes</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:71.25pt;text-indent:-18.0pt;line-height:14.25pt;
+background:#FFFFFE'><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='color:black'>Obtengo algunos gráficos descriptivos
+de las variables</span></p>
+
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:71.25pt;text-indent:-18.0pt;line-height:14.25pt;
+background:#FFFFFE'><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='color:black'>Construyo una matriz de correlación
+entre los datos numéricos y otra entre los datos categóricos</span></p>
+
+
+<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:71.25pt;text-indent:-18.0pt;line-height:14.25pt;
+background:#FFFFFE'><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='color:black'>Algunos boxplot para validar datos
+atípicos </span></p>
+
+
+<p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:71.25pt;text-indent:-18.0pt;line-height:14.25pt;background:
+#FFFFFE'><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='color:black'>Y finalmente un ScatterPlot de gráficos
+de dispersión entre las variables para visualizar posibles relaciones lineales
+entre estas </span></p>
+
+
+
+<p class=MsoNormal style='margin-left:35.4pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:35.4pt'>&nbsp;</p>
+
+<h1 style='margin-left:72.0pt;text-indent:-36.0pt'><span style='color:windowtext'>3.2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='color:windowtext'>PowerBI</span></h1>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:35.4pt'>Utilicé la versión gratuita de powerby por 60 días. </p>
+
+
+
+<p class=MsoNormal style='margin-left:35.4pt'>Cargo los datos de incapacidades del archivo generado desde colab</p>
+
+<p class=MsoNormal style='margin-left:35.4pt'>&nbsp;</p>
+
+
+
+<p class=MsoNormal style='margin-left:35.4pt'>Para ver como se encuentran
+relacionados algunos campos con las incapacidades veamos un grafico de
+dispersión y un treemap para observar por entidades de salud el mayor promedio de incapacidades </p>
+
+<iframe title="IncapacidadesMedicas - Página 2" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiOWE3NDlkYTUtZjc4Ni00OTgwLWI1ZDctMzMxNjc0NjlhZjczIiwidCI6ImJmMWNlOGI1LTVkMzktNGJjNS1hZDZlLTA3YjNlNGQ3ZDY3YSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+
+
+<p class=MsoNormal style='margin-left:35.4pt'>Del grafico de la pagina una podemos observar que el
+promedio de incapacidades mes  se presenta mas alto y con mas días de
+incapacidad en estado civil Casado en los hombres.  Para otros estados civiles
+como Divorciados  y separados el promedio de incapacidades es bajo. </p>
+
+<p class=MsoNormal style='margin-left:35.4pt'>Otra observación clara de este
+grafico es que los hombres tienen mayor cantidad de días de incapacidades  y
+eventos de incapacidad que las mujeres. </p>
+
+<p class=MsoNormal style='margin-left:35.4pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:35.4pt'>Por otra parte, en la segunda hora podemos ver como se comportan
+las entidades de salud con relación a la emisión promedio de incapacidades al mes</p>
+
+<p class=MsoNormal style='margin-left:35.4pt'>&nbsp;</p>
+
+
+
+
+<p class=MsoNormal style='margin-left:35.4pt'>Vemos que hay una mayoría de
+incapacidades por parte de la EPS Sura, lo cual puede ser </p>
+
+<p class=MsoNormal style='margin-left:35.4pt'>coherente ya que como vimos en
+colab era la entidad de salud mayoritaria dentro de la organización, por otra
+parte también es relevante observar que la entidad Empresas públicas de
+Medellín, la cual es la propia EPS de la empresa y atiende solo una pequeña parte
+de los empleados tiene una notoria participación en las incapacidades médicas,
+esto puede ser interesante a la hora de indagar una mayor flexibilidad por
+parte de la EPS interna de la empresa. </p>
 
 
 </div>
 
-
-<h2> Gráfico de Columnas con D3Plus</h2>
 <div id="viz1"></div>
 <div id="viz2"></div>
